@@ -10,10 +10,8 @@ font-family: 'Dancing Script', cursive;
 }
 
 .container{
-    margin-right: 150px; ; 
-    margin-left: 150px;
-    height: 100%;
-    
+    margin: auto;
+    width: 80%;
 }
 
 header{
@@ -61,12 +59,14 @@ Line-height: normal;
     flex-direction:column ;
     justify-content: center;
     align-items: center;
-    height: 80% ;
+    height: 70% ;
+    margin:auto;
+    width: 70%;
 }
 .header-Content .headerimg{
-   width: 40%;
-   height: 40%;
-   margin-top: 20px;
+   width: 30%;
+   height: 30%;
+   margin-top: 40px;
 
 }
 .header-Content h1{
@@ -115,3 +115,81 @@ margin-top: 10px;
 }
 
 /* header content */
+
+/* about */
+.about{
+    height: 2px;;
+    padding-left: 80px;
+}
+
+.about .container{
+    display: flex;
+    align-items: center;
+}
+
+.about .aboutimg{
+    height: 60%;
+    width: 80%;
+}
+.about .aboutdesc {
+    padding-top: 30px;
+
+}
+
+.about .aboutdesc h2{
+
+    Font-size: 36px;
+    
+    Font-weight: 400;
+    
+    Line-height: normal;
+    
+    color: rgb(37, 48, 72);
+}
+.about .aboutdesc h3{
+    font-family: 'Dancing Script', cursive;
+
+    Font-size: 28px;
+
+    Font-weight: 400;
+    
+    Line-height: normal;
+    margin-top: 10px;
+     color: rgb(193, 171, 132);
+}
+.about .aboutdesc p{
+
+Font-size: 18px;
+
+Font-weight: 400;
+width: 74%;
+Line-height: 30px;margin-top: 10px;
+}
+.about .aboutdesc ul{
+    margin-top: 20px;
+  }
+.about .aboutdesc li{
+  list-style: none;
+}
+.about .aboutdesc li a{
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: normal;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.about .aboutdesc li i{
+    background-color: rgb(193, 171, 132);
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/*about */

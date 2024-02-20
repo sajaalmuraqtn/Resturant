@@ -42,14 +42,15 @@ nav .navlinks{
     margin-top: 30px;
 
 }
-.navlinks li{
-   color: white;
+nav .navlinks{
    list-style: none;
-   
-font-size: 20px;
-cursor: pointer;
-font-weight: 400;
-Line-height: normal;
+}
+.navlinks li a{ 
+   font-size: 20px;
+   font-weight: 400;
+   Line-height: normal;
+   text-decoration: none; 
+   color: #fff;
 }
 /* nav */
 /* header content */
@@ -118,8 +119,9 @@ margin-top: 10px;
 
 /* about */
 .about{
-    height: 2px;;
     padding-left: 80px;
+    height: 87vh;
+    padding-top: 30px;
 }
 
 .about .container{
@@ -127,13 +129,15 @@ margin-top: 10px;
     align-items: center;
 }
 
-.about .aboutimg{
-    height: 60%;
+.about .aboutimg {
+    width: 60%;
+}
+.about .aboutimg img{
     width: 80%;
 }
 .about .aboutdesc {
-    padding-top: 30px;
-
+    padding-top: 50px;
+    width: 70%;
 }
 
 .about .aboutdesc h2{
@@ -152,7 +156,7 @@ margin-top: 10px;
     Font-size: 28px;
 
     Font-weight: 400;
-    
+
     Line-height: normal;
     margin-top: 10px;
      color: rgb(193, 171, 132);
@@ -160,7 +164,6 @@ margin-top: 10px;
 .about .aboutdesc p{
 
 Font-size: 18px;
-
 Font-weight: 400;
 width: 74%;
 Line-height: 30px;margin-top: 10px;
@@ -183,13 +186,181 @@ Line-height: 30px;margin-top: 10px;
     background-color: rgb(193, 171, 132);
     color: #fff;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     line-height: 50px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 20px;
 }
 
 
 /*about */
+/*reviewrs */
+
+.Reviewers{
+    padding-left: 80px;
+    height: 70vh;
+    padding-top: 60px;
+    background-color: #f8f8f8;
+}
+
+.Reviewers .container{
+    display: flex;
+    align-items: center;
+}
+
+.Reviewers .Reviewersimg {
+    width: 60%;
+}
+.Reviewers .Reviewersimg img{
+    margin-top: 50px ;
+    width: 80%;
+}
+.Reviewers .Reviewersdesc {
+    padding-top: 50px;
+    width: 70%;
+}
+
+.Reviewers .Reviewersdesc h2{
+
+    Font-size: 36px;
+    
+    Font-weight: 400;
+    
+    Line-height: normal;
+    
+    color: rgb(37, 48, 72);
+}
+.Reviewers .Reviewersdesc h3{
+    font-family: 'Dancing Script', cursive;
+    Font-size: 28px;
+    Font-weight: 400;
+    Line-height: normal;
+    margin-top: 10px;
+     color: rgb(193, 171, 132);
+}
+.Reviewers .Reviewersdesc p{
+font-size: 18px;
+Font-weight: 400;
+Line-height: 30px;
+margin-top: 10px;
+width: 70%;
+}
+.Reviewers .Reviewersdesc ul{
+    margin-top: 20px;
+  }
+.Reviewers .Reviewersdesc li{
+  list-style: none;
+  margin-top: 10px;
+
+}
+.Reviewers .Reviewersdesc li a{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: normal;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.Reviewers .Reviewersdesc li i{
+    color:  rgb(193, 171, 132);
+    font-size: 20px;
+}
+
+
+/*reviewrs */
+
+/* fixed */
+.fixed{
+    background-image: url(../../Vendor/Image/fixed.jpg);
+    width:100%;
+    height: 70vh;
+    background-attachment:fixed ;
+}
+/* fixed */
+
+/* ourflag*/
+.ourflag .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourflag .container .Our-flag-dishes{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.ourflag .container .Meals{
+    color: rgb(193, 171, 132);
+    font-size: 28px;
+    font-family: "Dancing Script";
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+
+.ourflag .menu{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.ourflag .menu div{
+    width: 33.33%;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.ourflag .menu div h2{
+    Font-size: 21px;
+
+    Font-weight: 400;
+    
+    Line-height: normal;
+    margin-top: 10px;
+    
+}
+.ourflag .menu div p{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 30px;
+width: 70%;
+margin-top: 10px;
+    
+}
+
+
+.ourflag .menu div img{
+    width: 95%;
+}
+.ourflag .view{
+   background-color: #c1ab84; 
+   text-decoration: none;
+   color: #fff;
+   padding: 10px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+}
+.ourflag .view:hover{
+    color:black ;
+    background-color: white;
+    transition:0.5s;
+}
+
+
+
+/* ourflag */
+
+/* where */
+
+/* where */

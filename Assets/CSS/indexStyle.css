@@ -3,81 +3,90 @@
 font-family: 'Dancing Script', cursive;
 */
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     margin: auto;
     width: 80%;
 }
 
-header{
+header {
     width: 100%;
     height: 100%;
     background-image: url(../../Vendor/Image/shutterstock_277750193.jpg);
     background-size: cover;
 }
+
 /* nav */
-nav{
+nav {
     height: 10%;
-    background-color: rgb(0, 0, 0,0.7);
-}
-nav .container{
-    display:flex;
-    align-items:center;
-    justify-content:space-between ;
+    background-color: rgb(0, 0, 0, 0.7);
 }
 
-nav .logo{
-    width: 120px; 
-    height:70% ;
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-nav .navlinks{
-    display:flex ;
-    justify-content:space-evenly ;
+
+nav .logo {
+    width: 120px;
+    height: 70%;
+}
+
+nav .navlinks {
+    display: flex;
+    justify-content: space-evenly;
     width: 40%;
     margin-top: 30px;
 
 }
-nav .navlinks{
-   list-style: none;
+
+nav .navlinks {
+    list-style: none;
 }
-.navlinks li a{ 
-   font-size: 20px;
-   font-weight: 400;
-   Line-height: normal;
-   text-decoration: none; 
-   color: #fff;
+
+.navlinks li a {
+    font-size: 20px;
+    font-weight: 400;
+    Line-height: normal;
+    text-decoration: none;
+    color: #fff;
 }
+
 /* nav */
 /* header content */
 
-.header-Content{
+.header-Content {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70% ;
-    margin:auto;
+    height: 70%;
+    margin: auto;
     width: 70%;
 }
-.header-Content .headerimg{
-   width: 30%;
-   height: 30%;
-   margin-top: 40px;
+
+.header-Content .headerimg {
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
 
 }
-.header-Content h1{
- Font-size: 76px;
-Font-weight: 400;
-Line-height: normal;
-color: white;
-margin-top: 10px;
+
+.header-Content h1 {
+    Font-size: 76px;
+    Font-weight: 400;
+    Line-height: normal;
+    color: white;
+    margin-top: 10px;
 }
-.header-Content p{
+
+.header-Content p {
     Font-size: 40px;
     Font-weight: 400;
     Line-height: normal;
@@ -86,11 +95,12 @@ margin-top: 10px;
     margin-top: 10px;
 }
 
-.header-Content .buttons{
+.header-Content .buttons {
     display: flex;
     margin-top: 10px;
 }
-.header-Content  .buttons a{
+
+.header-Content .buttons a {
     margin: 20px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -99,32 +109,34 @@ margin-top: 10px;
     Line-height: normal;
     padding: 15px;
 }
-.header-Content  .buttons .learn{
-    color:white ;
+
+.header-Content .buttons .learn {
+    color: white;
     background-color: #c1ab84;
 }
-.header-Content  .buttons .learn:hover{
-    color:black ;
+
+.header-Content .buttons .learn:hover {
+    color: black;
     background-color: white;
-    transition:0.5s;
+    transition: 0.5s;
 }
 
 
-.header-Content  .buttons .Book{
-    color:black ;
+.header-Content .buttons .Book {
+    color: black;
     background-color: white;
 }
 
 /* header content */
 
 /* about */
-.about{
+.about {
     padding-left: 80px;
     height: 87vh;
     padding-top: 30px;
 }
 
-.about .container{
+.about .container {
     display: flex;
     align-items: center;
 }
@@ -132,25 +144,28 @@ margin-top: 10px;
 .about .aboutimg {
     width: 60%;
 }
-.about .aboutimg img{
+
+.about .aboutimg img {
     width: 80%;
 }
+
 .about .aboutdesc {
     padding-top: 50px;
     width: 70%;
 }
 
-.about .aboutdesc h2{
+.about .aboutdesc h2 {
 
     Font-size: 36px;
-    
+
     Font-weight: 400;
-    
+
     Line-height: normal;
-    
+
     color: rgb(37, 48, 72);
 }
-.about .aboutdesc h3{
+
+.about .aboutdesc h3 {
     font-family: 'Dancing Script', cursive;
 
     Font-size: 28px;
@@ -159,22 +174,27 @@ margin-top: 10px;
 
     Line-height: normal;
     margin-top: 10px;
-     color: rgb(193, 171, 132);
+    color: rgb(193, 171, 132);
 }
-.about .aboutdesc p{
 
-Font-size: 18px;
-Font-weight: 400;
-width: 74%;
-Line-height: 30px;margin-top: 10px;
+.about .aboutdesc p {
+
+    Font-size: 18px;
+    Font-weight: 400;
+    width: 74%;
+    Line-height: 30px;
+    margin-top: 10px;
 }
-.about .aboutdesc ul{
+
+.about .aboutdesc ul {
     margin-top: 20px;
-  }
-.about .aboutdesc li{
-  list-style: none;
 }
-.about .aboutdesc li a{
+
+.about .aboutdesc li {
+    list-style: none;
+}
+
+.about .aboutdesc li a {
     Font-size: 20px;
     Font-weight: 400;
     Line-height: normal;
@@ -182,7 +202,8 @@ Line-height: 30px;margin-top: 10px;
     color: black;
     margin-left: 20px;
 }
-.about .aboutdesc li i{
+
+.about .aboutdesc li i {
     background-color: rgb(193, 171, 132);
     color: #fff;
     border-radius: 50%;
@@ -198,14 +219,14 @@ Line-height: 30px;margin-top: 10px;
 /*about */
 /*reviewrs */
 
-.Reviewers{
+.Reviewers {
     padding-left: 80px;
     height: 70vh;
     padding-top: 60px;
     background-color: #f8f8f8;
 }
 
-.Reviewers .container{
+.Reviewers .container {
     display: flex;
     align-items: center;
 }
@@ -213,49 +234,56 @@ Line-height: 30px;margin-top: 10px;
 .Reviewers .Reviewersimg {
     width: 60%;
 }
-.Reviewers .Reviewersimg img{
-    margin-top: 50px ;
+
+.Reviewers .Reviewersimg img {
+    margin-top: 50px;
     width: 80%;
 }
+
 .Reviewers .Reviewersdesc {
     padding-top: 50px;
     width: 70%;
 }
 
-.Reviewers .Reviewersdesc h2{
+.Reviewers .Reviewersdesc h2 {
 
     Font-size: 36px;
-    
+
     Font-weight: 400;
-    
+
     Line-height: normal;
-    
+
     color: rgb(37, 48, 72);
 }
-.Reviewers .Reviewersdesc h3{
+
+.Reviewers .Reviewersdesc h3 {
     font-family: 'Dancing Script', cursive;
     Font-size: 28px;
     Font-weight: 400;
     Line-height: normal;
     margin-top: 10px;
-     color: rgb(193, 171, 132);
+    color: rgb(193, 171, 132);
 }
-.Reviewers .Reviewersdesc p{
-font-size: 18px;
-Font-weight: 400;
-Line-height: 30px;
-margin-top: 10px;
-width: 70%;
+
+.Reviewers .Reviewersdesc p {
+    font-size: 18px;
+    Font-weight: 400;
+    Line-height: 30px;
+    margin-top: 10px;
+    width: 70%;
 }
-.Reviewers .Reviewersdesc ul{
+
+.Reviewers .Reviewersdesc ul {
     margin-top: 20px;
-  }
-.Reviewers .Reviewersdesc li{
-  list-style: none;
-  margin-top: 10px;
+}
+
+.Reviewers .Reviewersdesc li {
+    list-style: none;
+    margin-top: 10px;
 
 }
-.Reviewers .Reviewersdesc li a{
+
+.Reviewers .Reviewersdesc li a {
     Font-size: 16px;
     Font-weight: 400;
     Line-height: normal;
@@ -263,8 +291,9 @@ width: 70%;
     color: black;
     margin-left: 20px;
 }
-.Reviewers .Reviewersdesc li i{
-    color:  rgb(193, 171, 132);
+
+.Reviewers .Reviewersdesc li i {
+    color: rgb(193, 171, 132);
     font-size: 20px;
 }
 
@@ -272,27 +301,30 @@ width: 70%;
 /*reviewrs */
 
 /* fixed */
-.fixed{
+.fixed {
     background-image: url(../../Vendor/Image/fixed.jpg);
-    width:100%;
+    width: 100%;
     height: 70vh;
-    background-attachment:fixed ;
+    background-attachment: fixed;
 }
+
 /* fixed */
 
 /* ourflag*/
-.ourflag .container{
-    display:flex;
+.ourflag .container {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
-.ourflag .container .Our-flag-dishes{
+
+.ourflag .container .Our-flag-dishes {
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 10px;
     margin-top: 30px;
 }
-.ourflag .container .Meals{
+
+.ourflag .container .Meals {
     color: rgb(193, 171, 132);
     font-size: 28px;
     font-family: "Dancing Script";
@@ -301,15 +333,15 @@ width: 70%;
 }
 
 
-.ourflag .menu{
-    display:flex;
+.ourflag .menu {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
 
-.ourflag .menu div{
+.ourflag .menu div {
     width: 33.33%;
     margin-top: 10px;
     text-align: center;
@@ -320,41 +352,44 @@ width: 70%;
 
 }
 
-.ourflag .menu div h2{
+.ourflag .menu div h2 {
     Font-size: 21px;
 
     Font-weight: 400;
-    
+
     Line-height: normal;
     margin-top: 10px;
-    
+
 }
-.ourflag .menu div p{
+
+.ourflag .menu div p {
     Font-size: 16px;
     Font-weight: 400;
     Line-height: 30px;
-width: 70%;
-margin-top: 10px;
-    
+    width: 70%;
+    margin-top: 10px;
+
 }
 
 
-.ourflag .menu div img{
+.ourflag .menu div img {
     width: 95%;
 }
-.ourflag .view{
-   background-color: #c1ab84; 
-   text-decoration: none;
-   color: #fff;
-   padding: 10px;
-   margin-top: 30px;
-   margin-bottom: 30px;
-   border-radius: 10px;
+
+.ourflag .view {
+    background-color: #c1ab84;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
-.ourflag .view:hover{
-    color:black ;
+
+.ourflag .view:hover {
+    color: black;
     background-color: white;
-    transition:0.5s;
+    transition: 0.5s;
 }
 
 
@@ -362,5 +397,117 @@ margin-top: 10px;
 /* ourflag */
 
 /* where */
+.Where {
+    padding-left: 75px;
+    height: 80vh;
+    padding-top: 60px;
+    background-color: #f8f8f8;
+}
+
+.Where .container {
+    display: flex;
+    align-items: center;
+}
+
+.Where .location-img {
+    width: 60%;
+    position: relative;
+}
+
+.Where .location-img iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.Where .Wheredesc {
+    padding-top: 50px;
+    width: 70%;
+}
+
+.Where .Wheredesc h2 {
+
+    Font-size: 36px;
+
+    Font-weight: 400;
+
+    Line-height: normal;
+
+    color: rgb(37, 48, 72);
+}
+
+.Where .Wheredesc p {
+    font-size: 19px;
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+.Where .Wheredesc ul {
+    margin-top: 20px;
+}
+
+.Where .Wheredesc li {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.Where .Wheredesc li a {
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: normal;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.Where .Wheredesc li i {
+    color: #fff;
+    background-color: #c1ab84;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: left;
+}
 
 /* where */
+
+/*footer*/
+footer {
+    background-color: #353330;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+footer p {
+    color: #969696;
+    font-size: 14px;
+    width: 16%;
+    margin: auto;
+}
+
+footer .icons {
+    margin-top: 30px;
+}
+
+footer .icons i {
+    background-color: #484540;
+    color: #969696;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: all 1s;
+}
+footer .icons i:hover {
+    background-color: #1f10f571;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*footer*/
